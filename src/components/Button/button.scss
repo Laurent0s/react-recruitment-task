@@ -1,0 +1,17 @@
+@import "./../../styles/index";
+
+.page_button {
+  border: 2px solid $dark-grey;
+  color: $dark-grey;
+  box-shadow: 2px 2px 0px 0px $middle-grey;
+}
+
+.disabled_button {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.current_button {
+  color: $white;
+  background-color: $dark-grey;
+}

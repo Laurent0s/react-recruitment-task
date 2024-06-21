@@ -1,0 +1,12 @@
+@import "./../../styles/index";
+
+.pokemon_icon {
+  &.small {
+    height: 100px;
+    width: 100px;
+  }
+  &.big {
+    height: 256px;
+    width: 256px;
+  }
+}
