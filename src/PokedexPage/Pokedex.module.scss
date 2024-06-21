@@ -1,0 +1,45 @@
+@import "./../styles/_index.scss";
+
+.main_section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.title_text {
+  font-family: Inter;
+  line-height: 19.36px;
+  color: $dark-grey;
+}
+
+.pokemons_grid {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.pokedex_card {
+  width: 210px;
+  border: 2px solid $dark-grey;
+}
+
+.pokemon_icon {
+  height: 100px;
+  width: 100px;
+}
+
+.pokemon_text {
+  font-family: Inter;
+  line-height: 14.52px;
+  letter-spacing: -0.0044em;
+}
+
+.dots {
+  font-family: Inter;
+  line-height: 14.52px;
+  letter-spacing: -0.0044em;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}

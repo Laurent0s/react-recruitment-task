@@ -1,21 +1,14 @@
 import { Route, Routes } from "react-router-dom";
-
-const Homepage = () => {
-  return (
-    <div>
-      <h1>
-        Pokedex
-      </h1>
-    </div>
-  )
-}
+import { PokedexPage } from "../../PokedexPage";
+import { PokemonPage } from "../../PokemonPage";
 
 export const App = () => {
   return (
     <div className="app">
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<PokedexPage />} />
+        <Route path="/pokemon/:name" element={<PokemonPage />} />
       </Routes>
     </div>
   );
-}
+};

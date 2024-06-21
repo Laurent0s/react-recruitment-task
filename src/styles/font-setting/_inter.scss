@@ -1,0 +1,50 @@
+$font-path-inter: "./../../../public/fonts/inter/";
+
+@font-face {
+  font-style: normal;
+  font-weight: 300;
+  font-family: Inter;
+  src: url("#{$font-path-inter}/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: Inter;
+  src: url("#{$font-path-inter}/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: Inter;
+  src: url("#{$font-path-inter}/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: Inter;
+  src: url("#{$font-path-inter}/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: Inter;
+  src: url("#{$font-path-inter}/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 800;
+  font-family: Inter;
+  src: url("#{$font-path-inter}/Inter-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 900;
+  font-family: Inter;
+  src: url("#{$font-path-inter}/Inter-Black.ttf") format("truetype");
+}
