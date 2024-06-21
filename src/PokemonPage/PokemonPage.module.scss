@@ -1,16 +1,5 @@
 @import "./../styles/index";
 
-.nav_text {
-  font-family: Inter;
-  line-height: 19.36px;
-  color: $dark-grey;
-}
-
-.pokemon_icon {
-  height: 256px;
-  width: 256px;
-}
-
 .pokemon_label {
   font-family: Inter;
   line-height: 14.52px;
@@ -20,11 +9,4 @@
 
 .pokemon-stats {
   width: 200px;
-}
-
-.stat {
-  font-family: Inter;
-  font-size: 10px;
-  line-height: 12.1px;
-  color: $dark-grey;
 }

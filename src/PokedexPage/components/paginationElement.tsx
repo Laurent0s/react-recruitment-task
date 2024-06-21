@@ -11,7 +11,7 @@ import {
 import { useAppDispatch, useAppSelector } from "../../store/store";
 import { selectPagination } from "../../store/selectors";
 import { constants } from "../../constants";
-import { Button } from "../../components/Button";
+import { Button } from "../../components/Button/Button";
 import PokedexCSS from "./../Pokedex.module.scss";
 
 export const PaginationElement = () => {

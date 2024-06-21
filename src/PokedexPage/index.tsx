@@ -9,8 +9,8 @@ import { selectPagination } from "../store/selectors";
 import PokedexCSS from "./Pokedex.module.scss";
 
 export const PokedexPage = () => {
-  const dispatch = useAppDispatch();
   const { offset, limit } = useAppSelector(selectPagination);
+  const dispatch = useAppDispatch();
 
   useEffect(() => {
     dispatch(fetchPokemons({ limit, offset }));
